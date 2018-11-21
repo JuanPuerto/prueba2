@@ -13,10 +13,18 @@ y = np.linspace(0,10,100)
 print(x)
 print(y)
 
-#plt.plot(x,y)
+plt.plot(x,y)
+plt.savefig("hola1.pdf")
 
-def oscar_mata_a_miyagui(miyagui):
+def oscar(miyagui):
     return 50000*miyagui
 
-plt.plot(x,oscar_mata_a_miyagui(x))
+plt.plot(x,oscar(x))
 plt.savefig("hola.pdf")
+
+#slicing
+
+goku = np.array(["ssj1","ssj2","ssj3","God","ssjBlue","UltraInstinct"])
+print(goku)
+print(goku[2:5])
+
