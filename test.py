@@ -6,4 +6,12 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 print("hola mundo!")
 
-#comentario
+# Algo mas
+x = np.linspace(0,10,100)
+y = np.linspace(0,10,100)
+
+print(x)
+print(y)
+
+plt.plot(x,y)
+plt.show()
